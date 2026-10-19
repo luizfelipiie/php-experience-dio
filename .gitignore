@@ -1,0 +1,22 @@
+# Dependências (reinstaladas com composer install / npm install)
+vendor/
+node_modules/
+composer.phar
+
+# Variáveis de ambiente: nunca subir senhas, tokens ou chaves
+.env
+.env.*
+!.env.example
+
+# Cache de testes
+.phpunit.result.cache
+.phpunit.cache/
+
+# Logs
+*.log
+
+# Editor e sistema operacional
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
