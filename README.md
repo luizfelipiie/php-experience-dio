@@ -1,5 +1,3 @@
-# php-experience-dio
-Exercícios e projetos da Formação PHP Experience (DIO): fundamentos, POO, tratamento de exceções, boas práticas e API REST com Laravel. Estudo em andamento, vindo do Java/Spring
 # PHP Experience · DIO
 
 ![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?logo=php&logoColor=white)
