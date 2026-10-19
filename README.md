@@ -27,7 +27,7 @@ Cada pasta de projeto tem um README próprio explicando o que foi feito e como r
 | Módulo | Conteúdo | Status |
 | --- | --- | --- |
 | 1 | Fundamentos de desenvolvimento de software com PHP | Em andamento |
-| 2 | Tratamento de exceções e programação orientada a objetos | A fazer |
+| 2 | Tratamento de exceções e programação orientada a objetos | Em andamento |
 | 3 | Boas práticas PHP e desenvolvimento de APIs com Laravel | A fazer |
 
 ## Tecnologias
