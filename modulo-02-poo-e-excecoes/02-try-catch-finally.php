@@ -19,5 +19,5 @@ function divisao($dividendo, $divisor)
         }
 
 }
-
+    
 divisao(10,0);

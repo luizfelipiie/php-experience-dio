@@ -1,0 +1,17 @@
+{
+    "name": "luizf/modulo-03-composer",
+    "description": "estudando composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Luizf\\Modulo03Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "luiz peixoto",
+            "email": "luizfelipenaves123@gmail.com"
+        }
+    ],
+    "require": {}
+}
