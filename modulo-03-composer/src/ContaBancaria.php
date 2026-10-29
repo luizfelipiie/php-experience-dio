@@ -36,17 +36,46 @@ class ContaBancaria
             'Saldo' => $this -> Saldo,
         ]; 
     }
-    public function getBanco(): string 
+
+    public function depositar(float $valor): string
     {
-        return $this->Banco; 
+        $this->Saldo += $valor;
+        return 'depósito de R$ ' . number_format($valor, 2, ',', '') . 'realizado';
+    }
+
+    public function sacar(float $valor): string 
+    {
+        $this->Saldo -= $valor;
+        return 'saque de R$ ' . number_format($valor, 2, ',', '') . 'realizado';
+    }
+
+    public function obterSaldo(): string
+    {
+        return 'seu saldo atual é: R$ ' . number_format($this->Saldo, 2, ',', '');
+    }
+
+    public function getBanco(): string
+    {
+            return $this->Banco; 
     }
     public function getNomeTitular(): string
-    {
-        return $this-> NomeTitular;
-    }
-    public function getNumeroAgencia(): string
-    {
-        return $this-> NumeroAgencia;
-    }
+   {
+        return $this->NomeTitular;
+   }
+
+   public function getNumeroAgencia(): string
+   {
+        return $this->NumeroAgencia;
+   }
+
+   public function getNumeroConta(): string
+   {
+        return $this->NumeroConta;
+   }
+
+   public function getSaldo(): float
+   {
+        return $this->Saldo;
+   }
 }
 
