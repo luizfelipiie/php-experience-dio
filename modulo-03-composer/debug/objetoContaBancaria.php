@@ -29,5 +29,3 @@ echo PHP_EOL;
 echo $conta->obterSaldo();
 echo PHP_EOL;
 
-
-var_dump($conta->exibirDadosDaConta());
