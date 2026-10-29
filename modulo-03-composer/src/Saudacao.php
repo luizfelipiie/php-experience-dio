@@ -1,8 +1,10 @@
 <?php
+namespace Luizf\Modulo03Composer;
 
-require_once __DIR__ . '/vendor/autoload.php';
-
-use Luizf\Modulo03Composer\ContaBancaria;
-
-$contaBancaria = new ContaBancaria();
-var_dump($contaBancaria);
+class Saudacao
+{
+    public function ola(string $nome): string
+    {
+        return "Olá, $nome! O autoload funcionou.";
+    }
+}
