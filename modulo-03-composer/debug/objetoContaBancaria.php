@@ -6,6 +6,13 @@ use Luizf\Modulo03Composer\ContaBancaria;
 
 
 
-$conta = new ContaBancaria();
-$conta->setbanco("Nubank");   
-var_dump($conta->getbanco()); 
+$conta = new ContaBancaria(
+    'Banco inter',
+    'Luiz Peixoto',
+    '1234',
+    '12345-12',
+    '10000'
+);
+
+
+var_dump($conta->exibirDadosDaConta()); 
